@@ -1,0 +1,71 @@
+Viviana Acquaviva 	vacquaviva@citytech.cuny.edu 	CUNY 	
+Shadab Alam 	shadaba.roe@gmail.com 	IfA 	IWG4
+David Alexander 	d.m.alexander@durham.ac.uk 	Durham 	IWG1,IWG2
+Andrew Battisti 	ajbattisti@gmail.com 	ANU 	
+Eric Bell 	ericbell@umich.edu 	UMich 	
+Sabine Bellstedt 	sabine.bellstedt@uwa.edu.au 	ICRAR 	IWG1,IWG8
+Maciej Bilicki 	bilicki@cft.edu.pl 	CFT 	IWG9
+Chris Blake 	cblake@swin.edu.au 	CAS 	
+Jarle Brinchmann 	jarle@astro.up.pt 	IA 	
+Sarah Brough 	s.brough@unsw.edu.au 	UNSW - SoP 	
+Michael Brown 	Michael.Brown@monash.edu 	Monash 	
+Fernando Buitrago 	fbuitrago@uva.es 	UVa 	
+Michelle Cluver 	mcluver@swin.edu.au 	CAS 	IWG9
+Matthew Colless 	matthew.colless@anu.edu.au 	ANU 	
+Helene Courtois 	helene.courtois@univ-lyon1.fr 	IP2I 	
+Scott Croom 	scott.croom@sydney.edu.au 	SIFA 	IWG2,IWG8
+Romeel Dave 	rad@roe.ac.uk 	IfA 	
+Tamara Davis 	tamarad@physics.uq.edu.au 	UQ 	
+Anna de Graaff 	graaff@strw.leidenuniv.nl 	Leiden 	
+Simon Driver 	simon.driver@uwa.edu.au 	ICRAR 	
+Anna Ferre-Mateu 	aferremateu@gmail.com 	IAC 	
+Caroline Foster 	c.foster@unsw.edu.au 	UNSW - SoP 	
+Madusha Gunawardhana 	mlpg0721@gmail.com 	SIFA 	
+Anshu Gupta 	anshu.gupta@curtin.edu.au 	CIRA 	
+Christopher Haines 	chris.haines@uda.cl 	INCT 	
+Wojciech Hellwing 	wojtek.hellwing@gmail.com 	CFT 	
+Kelley Hess 	kmhess.astro@gmail.com 	IAA-CSIC 	
+Henk Hoekstra 	hoekstra@strw.leidenuniv.nl 	Leiden 	
+Andrew Hopkins 	andrew.hopkins@mq.edu.au 	AAO-MQ 	
+Cullan Howlett 	c.howlett@uq.edu.au 	UQ 	
+Mike Hudson 	mike.hudson@uwaterloo.ca 	UW 	
+Andrew Humphrey 	ajh@astro.up.pt 	IA 	
+Leslie Hunt 	leslie.hunt@inaf.it 	OAA 	IWG1
+Thomas Jarrett 	tjarrett007@gmail.com 	UCT 	
+Michael Jones 	jonesmg@email.arizona.edu 	UA 	
+Shahab Joudaki 	sjoudaki@gmail.com 	UW 	
+Gyula I. G. Jozsa 	gigjozsast@gmail.com 	MPIfR 	
+Sheila Kannappan 	sheila@physics.unc.edu 	UNC 	
+Ulrike Kuchner 	ulrike.kuchner@nottingham.ac.uk 	UoN 	
+Claudia Lagos 	claudia.lagos@icrar.org 	ICRAR 	
+Sarah Leslie 	sarah.k.leslie@gmail.com 	Leiden 	
+Chris Lidman 	christopher.lidman@anu.edu.au 	ANU 	IWG2
+Joe Liske 	jochen.liske@uni-hamburg.de 	UHH 	IWG2
+Ilani Loubser 	ilani.loubser@nwu.ac.za 	CSR 	
+John Lucey 	john.lucey@durham.ac.uk 	Durham 	IWG3
+Lucia Marchetti 	marchetti.lu@gmail.com 	UCT 	
+Michael Maseda 	maseda@astro.wisc.edu 	UW-Madison 	
+Sean McGee 	smcgee@star.sr.bham.ac.uk 	Birmingham 	IWG4
+Moses Mogotsi 	moses.mog@gmail.com 	SAAO 	
+Themiya Nanayakkara 	themiyananayakkara@gmail.com 	CAS 	
+Peder Norberg 	peder.norberg@durham.ac.uk 	Durham 	IWG1,IWG2,IWG5
+Mark Norris 	mnorris2@uclan.ac.uk 	UCLan 	
+Matt Owers 	matt.owers@mq.edu.au 	AAO-MQ 	IWG8
+Laura Parker 	lparker@mcmaster.ca 	McMaster 	
+Will Percival 	will.percival@uwaterloo.ca 	UW 	
+Mamta Pommier 	mamtapan@gmail.com 	LUPM 	
+Aaron Robotham 	aaron.robotham@uwa.edu.au 	ICRAR 	
+Rossana Ruggeri 	rruggeri@swin.edu.au 	UQ 	
+Khaled Said 	k.saidahmedsoliman@uq.edu.au 	UQ 	IWG8
+Tim Schrabback 	schrabba@astro.uni-bonn.de 	IAPP 	
+Cristóbal Sifón 	cristobal.sifon@pucv.cl 	PUCV 	
+Rosalind Skelton 	ros@saao.ac.za 	SAAO 	
+Alessandro Sonnenfeld 	sonnenfeld@strw.leidenuniv.nl 	Leiden 	IWG8
+Jenny G. Sorce 	jsorce@aip.de 	AIP 	IWG2
+Edward Taylor 	entaylor@swin.edu.au 	CAS 	IWG2,IWG8
+Elmo Tempel 	elmo.tempel@ut.ee 	UT 	IWG2,IWG4
+Jessica Thorne 	jessica.thorne@icrar.org 	ICRAR 	
+Mattia Vaccari 	mattia.vaccari@gmail.com 	UWC 	
+Benedetta Vulcani 	benedetta.vulcani@inaf.it 	OAPd 	
+Ivy Wong 	ivy.wong@csiro.au 	CSIRO 	
+Pauline Zarrouk 	pauline.zarrouk@lpnhe.in2p3.fr 	LPNHE 

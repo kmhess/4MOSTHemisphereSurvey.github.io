@@ -1,0 +1,15 @@
+__pycache__
+*.py[cod]
+*~
+
+*.so
+
+build/
+cache/
+dist/
+output/
+
+# Nikola
+.doit.db*
+
+.DS_Store
