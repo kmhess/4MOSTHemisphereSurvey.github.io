@@ -5,7 +5,19 @@ import time
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
 
-extensions = ["sphinx_design"]
+extensions = [
+    'sphinx_design',
+    'sphinx.ext.exlinks'
+    # 'sphinx_rtd_theme',
+    # 'sphinx.ext.autodoc',
+    # 'sphinx.ext.doctest',
+    # 'sphinx.ext.todo',
+    # 'sphinx.ext.coverage',
+    # 'sphinx.ext.mathjax',
+    # 'sphinx.ext.ifconfig',
+    # 'sphinx.ext.viewcode',
+    # 'sphinx.ext.githubpages'
+]
 
 # ! Some settings can be different in different languages.
 # ! A comment stating (translatable) is used to denote those.
@@ -26,7 +38,7 @@ SITE_URL = "https://example.com/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "cristobal.sifon@pucv.cl"
-BLOG_DESCRIPTION = "Description: 4MOST Hemisphere Survey"  # (translatable)
+BLOG_DESCRIPTION = "4MOST Hemisphere Survey"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -143,28 +155,30 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/", "Home"),
-        # ("/archive.html", "Archive"),
-        #("/categories/", "Tags"),
-        # ("/rss.xml", "RSS feed"),
-        ("/members/", "Members"),
+        ("/index.html", "Home"),
+        ("/members.html", "Members"),
+        ("/science.html", "Science"),
+        ("/publications.html", "Publications"),
     ),
 }
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
-NAVIGATION_ALT_LINKS = {
-    DEFAULT_LANG: (
-        # ("/archive.html", "Archive"),
-        # ("/categories/", "Tags"),
-        # ("/rss.xml", "RSS feed"),
-        #("/members/", "Members"),
-    ),
-}
+# NAVIGATION_ALT_LINKS = {
+#     DEFAULT_LANG: (
+#         # ("/archive.html", "Archive"),
+#         # ("/categories/", "Tags"),
+#         # ("/rss.xml", "RSS feed"),
+#         #("/members/", "Members"),
+#     ),
+# }
 
 # Name of the theme to use.
-THEME = "maupassant_custom"
+THEME = "bootstrap3"
+THEME = 'maupassant_custom'
+#THEME = 'bootstrap4'
+#THEME = 'legacysurvey'
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
@@ -179,24 +193,52 @@ THEME_COLOR = '#5670d4'
 #                      navbar_custom_bg (defaults to '')
 
 # Config for bootblog4:
-THEME_CONFIG = {
-    DEFAULT_LANG: {
-        # Show the latest featured post in a large box, with the previewimage as its background.
-        'featured_large': False,
-        # Show the first (remaining) two featured posts in small boxes.
-        'featured_small': False,
-        # Show featured posts on mobile.
-        'featured_on_mobile': True,
-        # Show image in `featured_large` on mobile.
-        # `featured_small` displays them only on desktop.
-        'featured_large_image_on_mobile': True,
-        # Strip HTML from featured post text.
-        'featured_strip_html': False,
-        # Contents of the sidebar, If empty, the sidebar is not displayed.
-        'sidebar': ''
+if THEME == 'bootblog4' or True:
+    THEME_CONFIG = {
+        DEFAULT_LANG: {
+            # Show the latest featured post in a large box, with the previewimage as its background.
+            'featured_large': False,
+            # Show the first (remaining) two featured posts in small boxes.
+            'featured_small': False,
+            # Show featured posts on mobile.
+            'featured_on_mobile': True,
+            # Show image in `featured_large` on mobile.
+            # `featured_small` displays them only on desktop.
+            'featured_large_image_on_mobile': True,
+            # Strip HTML from featured post text.
+            'featured_strip_html': False,
+            # Contents of the sidebar, If empty, the sidebar is not displayed.
+            'sidebar': '',
+            'show_blog_title': False,
+        }
     }
-}
 # Config for bootstrap4:
+elif THEME == 'bootstrap4':
+    THEME_CONFIG = {
+        DEFAULT_LANG: {
+            # Use a light navbar with dark text. Defaults to False.
+            'navbar_light': False,
+            # Use a custom navbar color. If unset, 'navbar_light' sets text +
+            # background color. If set, navbar_light controls only background
+            # color. Supported values: bg-dark, bg-light, bg-primary, bg-secondary,
+            # bg-success, bg-danger, bg-warning, bg-info, bg-white, bg-transparent.
+            'navbar_custom_bg': '',
+            'show_blog_title': False,
+        }
+    }
+else:
+    THEME_CONFIG ={
+        # DEFAULT_LANG: {
+        #     # Use a light navbar with dark text. Defaults to False.
+        #     'navbar_light': False,
+        #     # Use a custom navbar color. If unset, 'navbar_light' sets text +
+        #     # background color. If set, navbar_light controls only background
+        #     # color. Supported values: bg-dark, bg-light, bg-primary, bg-secondary,
+        #     # bg-success, bg-danger, bg-warning, bg-info, bg-white, bg-transparent.
+        #     'navbar_custom_bg': '',
+        #     'show_blog_title': False,
+        # }
+    }
 # THEME_CONFIG = {
 #     DEFAULT_LANG: {
 #         # Use a light navbar with dark text. Defaults to False.
@@ -395,7 +437,6 @@ LOGO_URL = '/files/logo.jpg'
 # already contains the text), set this to False.
 # Note: if your logo is a SVG image, and you set SHOW_BLOG_TITLE = False,
 # you should explicitly set a height for #logo in CSS.
-SHOW_BLOG_TITLE = False
 
 # Paths for different autogenerated bits. These are combined with the
 # translation paths.
@@ -958,6 +999,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
 # INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
@@ -1048,7 +1090,7 @@ COMMENT_SYSTEM_ID = ""
 # WARNING: if a page would conflict with the index file (usually
 #          caused by setting slug to `index`), the PAGE_INDEX
 #          will not be generated for that directory.
-# PAGE_INDEX = False
+PAGE_INDEX = False
 # Enable comments on pages (i.e. not posts)?
 # COMMENTS_IN_PAGES = False
 # Enable comments on picture gallery pages?
@@ -1076,7 +1118,7 @@ STRIP_INDEXES = True
 # This can be disabled on a per-page/post basis by adding
 #    .. pretty_url: False
 # to the metadata.
-PRETTY_URLS = True
+PRETTY_URLS = False
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.
@@ -1187,9 +1229,11 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 
 # Show link to source for the posts?
 # SHOW_SOURCELINK = True
+SHOW_SOURCELINK = False
 # Copy the source files for your pages?
 # Setting it to False implies SHOW_SOURCELINK = False
 # COPY_SOURCES = True
+COPY_SOURCES = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
@@ -1363,6 +1407,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # environment but is not recommended for HTTP/2.0 when caching is used.
 # Defaults to True.
 # USE_BUNDLES = True
+USE_BUNDLES = False
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["render_galleries"]
@@ -1422,9 +1467,33 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
+if THEME == 'bootblog':
+    GLOBAL_CONTEXT = {'blog_sidebar': """\
+    <div class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <p>This is the Bootstrap Blog theme by @mdo, adapted for Nikola by @Kwpolska.
+    And this sidebar is completely customizable — you can put anything you want
+    here!</p>
+    </div>
+    <div class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+        <li><a href="http://getbootstrap.com/examples/blog/">Bootstrap Blog Theme</a></li>
+        <li><a href="https://getnikola.com/">Nikola</a></li>
+        <li><a href="https://twitter.com/mdo">@mdo</a></li>
+        <li><a href="https://twitter.com/Kwpolska">@Kwpolska</a></li>
+        <li><a href="https://twitter.com/GetNikola">@GetNikola</a></li>
+    </ol>
+    </div>
+    """}
+else:
+    GLOBAL_CONTEXT = {}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+html_css_files = [
+    "/themes/maupassant_custom/assets/css/custom.css",
+]
