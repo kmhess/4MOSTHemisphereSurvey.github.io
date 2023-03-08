@@ -7,38 +7,38 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://example.com/</loc>
-  <lastmod>2023-02-23T20:36:00Z</lastmod>
+  <lastmod>2023-03-08T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/archive/archive.html</loc>
-  <lastmod>2023-02-23T20:36:00Z</lastmod>
+  <lastmod>2023-03-08T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/</loc>
-  <lastmod>2023-02-23T20:36:00Z</lastmod>
+  <lastmod>2023-03-08T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/galleries/</loc>
-  <lastmod>2023-02-23T20:36:00Z</lastmod>
+  <lastmod>2023-03-08T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/listings/</loc>
-  <lastmod>2023-02-23T20:36:00Z</lastmod>
+  <lastmod>2023-03-08T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/members.html</loc>
-  <lastmod>2023-02-23T20:36:00Z</lastmod>
+  <lastmod>2023-03-08T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/news/</loc>
-  <lastmod>2023-02-23T20:36:00Z</lastmod>
+  <lastmod>2023-03-08T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/science.html</loc>
-  <lastmod>2023-02-23T20:36:00Z</lastmod>
+  <lastmod>2023-03-08T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/science/rationale.html</loc>
-  <lastmod>2023-02-23T20:36:00Z</lastmod>
+  <lastmod>2023-03-08T00:35:00Z</lastmod>
  </url>
 </urlset>
