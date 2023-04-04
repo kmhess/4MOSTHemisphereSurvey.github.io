@@ -97,10 +97,10 @@
       - | **Large-scale structure velocity and density fields, galaxy evolution, warm dark matter, beyond lcdm models**
         | My focus is on using the properties of the large-scale velocity and density fields for designing and  convening novel tests of LCDM and beyond-LCDM models. A connected aspect is a study on how the LSS cosmic fields is acting as a galaxy formation and evolution environment and how this affect the galaxy properties. Finally, I am also interested in Dark Matter models (Warm, Cold, self-interacting) and the associated effects on the Local Universe galaxy and dark matter properties.
 
-    * - | `Kelley Hess <kmhess.astro@gmail.com>`_
-        | Now: Researcher. As of 1 April 2023: Senior Researcher in Data Intensive Radio Astronomy, Now: Institute de Astrofísica de Andalucía & ASTRON.  As of 1 April 2023: Onsala Space Observatory, Chalmers University & ASTRON, the Netherlands Institute for Radio Astronomy
+    * - | `Kelley Hess <kelley.hess@chalmers.se>`_
+        | Senior Researcher, Onsala Space Observatory, Chalmers University / ASTRON
       - | **Galaxy evolution & environment**
-        | I use multiwavelength data to study how different environments drive galaxy evolution, with a special focus on how the group and cluster environment modifies the gas reservoirs of galaxies and the subsequent impact on their star formation.
+        | I use multiwavelength data to study how different environments drive galaxy evolution, with a special focus on how the group and cluster environment modifies the gas reservoirs of galaxies and the subsequent impact on their star formation.  In particular, I am an expert in extragalacic radio astronomy, and I hold a number of leadership roles in large SKA precursor and pathfinder surveys.
 
     * - | `Henk Hoekstra <hoekstra@strw.leidenuniv.nl>`_
         | Professor, Leiden Observatory, Leiden University
